@@ -44,6 +44,7 @@
       }
     ]
   },
+  "platformRuntimeGate": "GitHub Pages training app / GitHub Release教材",
   "generatedArtifacts": [
     "dist/validation-result.json",
     "dist/web-smoke-result.json",

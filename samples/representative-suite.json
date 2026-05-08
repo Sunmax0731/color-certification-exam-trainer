@@ -5,12 +5,12 @@
     {
       "id": "happy-path",
       "type": "happy-path",
-      "title": "PCCSの通常処理",
+      "title": "色彩検定問題トレーニングの通常フロー",
       "inputs": {
-        "questionId": "color-pccs-001",
-        "answer": "B",
-        "palette": "vivid-red-blue",
-        "topic": "PCCS"
+        "questionId": "color-001",
+        "selectedAnswer": "B",
+        "category": "配色",
+        "reviewMode": "normal"
       },
       "expected": {
         "status": "pass",
@@ -21,12 +21,12 @@
     {
       "id": "missing-required",
       "type": "missing-required",
-      "title": "palette不足時の停止",
+      "title": "questionId不足時の停止",
       "inputs": {
-        "questionId": "color-pccs-001",
-        "answer": "B",
-        "palette": "",
-        "topic": "PCCS"
+        "questionId": "color-001",
+        "selectedAnswer": "",
+        "category": "配色",
+        "reviewMode": "normal"
       },
       "expected": {
         "status": "error",
@@ -37,12 +37,12 @@
     {
       "id": "warning",
       "type": "warning",
-      "title": "配色の注意喚起",
+      "title": "用語改訂確認が必要な問題",
       "inputs": {
-        "questionId": "color-name-005",
-        "answer": "D",
-        "palette": "near-neutral",
-        "topic": "慣用色名"
+        "questionId": "color-002",
+        "selectedAnswer": "D",
+        "category": "色彩心理",
+        "reviewMode": "stale-source"
       },
       "flags": [
         "needsReview"
@@ -56,25 +56,25 @@
     {
       "id": "mixed-batch",
       "type": "mixed-batch",
-      "title": "慣用色名を含む混在バッチ",
+      "title": "正常・不足・警告を含む混在バッチ",
       "items": [
         {
-          "questionId": "color-pccs-001",
-          "answer": "B",
-          "palette": "vivid-red-blue",
-          "topic": "PCCS"
+          "questionId": "color-001",
+          "selectedAnswer": "B",
+          "category": "配色",
+          "reviewMode": "normal"
         },
         {
-          "questionId": "color-pccs-001",
-          "answer": "B",
-          "palette": "",
-          "topic": "PCCS"
+          "questionId": "color-001",
+          "selectedAnswer": "",
+          "category": "配色",
+          "reviewMode": "normal"
         },
         {
-          "questionId": "color-name-005",
-          "answer": "D",
-          "palette": "near-neutral",
-          "topic": "慣用色名"
+          "questionId": "color-002",
+          "selectedAnswer": "D",
+          "category": "色彩心理",
+          "reviewMode": "stale-source"
         }
       ],
       "expected": {

@@ -1,17 +1,17 @@
 # 仕様
 
-対象: 色彩検定問題トレーニング (Rank 64, EducationLearning No.7)
+- 名称: 色彩検定問題トレーニング
+- Repo: color-certification-exam-trainer
+- Closed alpha platform: GitHub Pages training app / GitHub Release教材
+- 主な公開先: GitHub Pages / GitHub Release
 
-| 入力 | 用途 |
-| questionId | 色彩検定問題トレーニング の評価、表示、レポートに必要 |
-| answer | 色彩検定問題トレーニング の評価、表示、レポートに必要 |
-| palette | 色彩検定問題トレーニング の評価、表示、レポートに必要 |
-| topic | 色彩検定問題トレーニング の評価、表示、レポートに必要 |
+## 入力
 
-## 出力
+- `questionId`
+- `selectedAnswer`
+- `category`
+- `reviewMode`
 
-- `dist/validation-result.json`
-- `dist/web-smoke-result.json`
-- `docs/qcds-strict-metrics.json`
-- `docs/qcds-regression-baseline.json`
-- `dist/color-certification-exam-trainer-docs.zip`
+## 主要機能
+
+代表シナリオ評価、Web表示、CLI評価、docs / QCDS / release evidence 生成。

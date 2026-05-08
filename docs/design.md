@@ -1,17 +1,5 @@
 # 設計
 
-対象: 色彩検定問題トレーニング (Rank 64, EducationLearning No.7)
+配色、用語、採点、復習理由を検証データに含め、更新履歴を手動確認できる。
 
-## 3 Options
-
-1. CLIのみ: 実装は軽いが公開前確認が弱い。
-2. 静的Webのみ: 表示は強いが自動検証とtraceabilityが弱い。
-3. CLI + static Web + stable artifacts: 自動検証、操作UI、release assetsを同じ責務分割で扱える。
-
-## Criteria
-
-検証容易性、手動テスト粒度、公開導線、MVP後の拡張性で比較します。
-
-## Chosen Option
-
-Option 3 を採用します。責務は exam-engine / review-deck / question-data / web-app を中心に分割します。
+UIは左に代表シナリオ、中央にcanvasと結果、右にrelease readinessを配置します。Chrome headless smokeで `data-smoke=ready`、ボタン、結果パネル、platform scope を確認します。

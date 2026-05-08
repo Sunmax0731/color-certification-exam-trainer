@@ -1,32 +1,32 @@
 {
   "product": "color-certification-exam-trainer",
-  "updatePolicy": "Alpha data is representative. Check source, topic coverage, answer, and rationale before expanding.",
+  "note": "閉鎖アルファ用のサンプル問題です。公式資料との差分は手動更新で確認します。",
   "questions": [
     {
-      "id": "color-pccs-001",
-      "topic": "PCCS",
-      "prompt": "PCCSに関する基本確認",
+      "id": "color-001",
+      "category": "配色",
+      "prompt": "色彩検定問題トレーニングの基礎確認サンプル",
       "choices": [
         "A",
         "B",
         "C",
         "D"
       ],
-      "correctAnswer": "B",
-      "rationale": "代表シナリオ用の解説。"
+      "answer": "B",
+      "explanation": "採点と復習導線の検証を優先します。"
     },
     {
-      "id": "color-name-005",
-      "topic": "慣用色名",
-      "prompt": "配色に関する復習確認",
+      "id": "color-002",
+      "category": "色彩心理",
+      "prompt": "色彩検定問題トレーニングの更新確認サンプル",
       "choices": [
         "A",
         "B",
         "C",
         "D"
       ],
-      "correctAnswer": "D",
-      "rationale": "代表シナリオ用の解説。"
+      "answer": "D",
+      "explanation": "教材データは公式資料確認後に更新します。"
     }
   ]
 }

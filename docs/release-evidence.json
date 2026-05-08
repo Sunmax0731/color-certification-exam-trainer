@@ -1,55 +1,23 @@
 {
-    "product":  "color-certification-exam-trainer",
-    "tag":  "v0.1.0-alpha.1",
-    "status":  "api-confirmed-after-prerelease",
-    "github":  {
-                   "repository":  "Sunmax0731/color-certification-exam-trainer",
-                   "url":  "https://github.com/Sunmax0731/color-certification-exam-trainer",
-                   "releaseUrl":  "https://github.com/Sunmax0731/color-certification-exam-trainer/releases/tag/v0.1.0-alpha.1",
-                   "apiUrl":  "https://api.github.com/repos/Sunmax0731/color-certification-exam-trainer/releases/319273961",
-                   "tagName":  "v0.1.0-alpha.1",
-                   "prerelease":  true,
-                   "latestCheck":  {
-                                       "endpointStatus":  404,
-                                       "targetIsLatest":  false,
-                                       "tagName":  null
-                                   }
-               },
-    "assets":  [
-                   {
-                       "contentType":  "application/zip",
-                       "name":  "color-certification-exam-trainer-docs.zip",
-                       "browserDownloadUrl":  "https://github.com/Sunmax0731/color-certification-exam-trainer/releases/download/v0.1.0-alpha.1/color-certification-exam-trainer-docs.zip",
-                       "state":  "uploaded"
-                   },
-                   {
-                       "contentType":  "application/octet-stream",
-                       "name":  "manual-test.md",
-                       "browserDownloadUrl":  "https://github.com/Sunmax0731/color-certification-exam-trainer/releases/download/v0.1.0-alpha.1/manual-test.md",
-                       "state":  "uploaded"
-                   },
-                   {
-                       "contentType":  "application/octet-stream",
-                       "name":  "strict-manual-test-addendum.md",
-                       "browserDownloadUrl":  "https://github.com/Sunmax0731/color-certification-exam-trainer/releases/download/v0.1.0-alpha.1/strict-manual-test-addendum.md",
-                       "state":  "uploaded"
-                   }
-               ],
-    "assetCount":  3,
-    "validation":  {
-                       "npmTest":  "pass",
-                       "manualTest":  "not-executed-by-codex",
-                       "qcdsMinimum":  "A-",
-                       "validationResult":  "dist/validation-result.json",
-                       "webSmoke":  "dist/web-smoke-result.json",
-                       "docsZip":  "dist/color-certification-exam-trainer-docs.zip"
-                   },
-    "git":  {
-                "evidenceUpdateBranch":  "codex/closed-alpha-release",
-                "mainOriginAtEvidenceUpdate":  {
-                                                   "ahead":  0,
-                                                   "behind":  0
-                                               },
-                "finalBranchCleanup":  "verified-after-evidence-merge"
-            }
+  "product": "color-certification-exam-trainer",
+  "tag": "v0.1.0-alpha.1",
+  "github": {
+    "owner": "Sunmax0731",
+    "repo": "color-certification-exam-trainer",
+    "url": "https://github.com/Sunmax0731/color-certification-exam-trainer",
+    "releaseUrl": "https://github.com/Sunmax0731/color-certification-exam-trainer/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  },
+  "assets": [
+    "dist/color-certification-exam-trainer-docs.zip",
+    "docs/manual-test.md",
+    "docs/strict-manual-test-addendum.md"
+  ],
+  "validation": {
+    "automated": "npm test",
+    "browser": "Chrome headless local server",
+    "manualTest": "not-executed-by-codex",
+    "qcdsMinimum": "A-"
+  }
 }

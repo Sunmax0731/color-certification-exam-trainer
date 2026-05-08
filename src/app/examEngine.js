@@ -1,2 +1,2 @@
-export function gradeAnswer(question, answer) { const correct = question.correctAnswer === answer; return { questionId: question.id, correct, reviewTag: correct ? "mastered" : question.topic }; }
-export function gradeBatch(questions, answers) { return questions.map((question) => gradeAnswer(question, answers[question.id])); }
+import { evaluateScenario } from '../core/product.js';
+export function scoreAnswer(attempt) { return evaluateScenario({ id: 'exam-attempt', inputs: attempt }); }

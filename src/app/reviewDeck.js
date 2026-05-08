@@ -1,1 +1,1 @@
-export function buildReviewDeck(results) { return results.filter((result) => !result.correct).map((result) => ({ questionId: result.questionId, topic: result.reviewTag, priority: "next-review" })); }
+export function buildReviewDeck(results) { return results.filter((result) => result.status !== 'pass').map((result) => ({ id: result.id, reason: '復習対象', status: result.status })); }

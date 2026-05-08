@@ -9,6 +9,7 @@
   ],
   "expectedValidationResult": "pass",
   "expectedWebSmokeResult": "pass",
+  "expectedQcdsMinimum": "A-",
   "manualTestStatus": "not-executed",
   "releaseAssetContract": [
     "dist/color-certification-exam-trainer-docs.zip",

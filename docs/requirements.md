@@ -1,20 +1,16 @@
 # 要件定義
 
-対象: 色彩検定問題トレーニング (Rank 64, EducationLearning No.7)
+## 対象
+
+| 64 | P3 | 50 | EducationLearning | 7 | 色彩検定問題トレーニング | color-certification-exam-trainer | GitHub Pages / GitHub Release | 色彩教材は問題品質と用語更新が重要で、単なる選択式UIだけでは学習価値が不足する。 |
 
 ## 目的
 
-色相、明度、彩度、配色、色彩心理、慣用色名、PCCS、デザイン応用を問題演習で学ぶ。
+色彩検定向けのサンプル問題、採点、復習、教材更新の注意点をまとめたブラウザ学習アプリ。
 
-## 課題
+## 必須要件
 
-用語暗記と配色判断が混ざり、図版や色比較を含む復習が紙や別アプリに分かれやすい。
-
-## 要件
-
-- 必須入力 `questionId`、`answer`、`palette`、`topic` を検証する。
-- happy-path / missing-required / warning / mixed-batch を代表シナリオとして保持する。
-- CLI、静的Web UI、自動テスト、docs ZIP、release evidence を同一repoで完結させる。
-- 正式docsはNON PICKUP行、ZIP metadata、ドメインdocsを根拠に正常な日本語で再構成する。
-
-問題データ、採点、復習、教材更新方針、GitHub Pages / Release 向け導線を整理します。
+- 代表シナリオ4種を自動検証する。
+- 問題データ、採点、復習、教材更新方針、手動テスト手順を必須とする。
+- 文字化けを検出し、正式成果物へ残さない。
+- QCDSの10段階スケールを機械検証する。

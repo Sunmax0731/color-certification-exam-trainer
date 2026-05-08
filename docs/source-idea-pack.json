@@ -1,52 +1,33 @@
 {
   "product": "color-certification-exam-trainer",
   "rank": 64,
-  "tier": "P3",
-  "score": 50,
-  "domain": "EducationLearning",
   "ideaNo": 7,
-  "ideaName": "色彩検定問題トレーニング",
-  "publicTarget": "GitHub Pages / GitHub Release",
-  "formalRepoReadmeBeforeStart": "missing",
-  "nonPickupPrioritizedIdeas": {
-    "path": "D:/AI/IDEAS/NON_PICKUP_PRIORITIZED_IDEAS.md",
-    "rowBasis": "Rank 64 priority-list row, not Idea No order",
-    "note": "Priority table Japanese text was mojibake, so normalized idea name comes from ZIP metadata."
-  },
-  "lookup": {
-    "exactCreatedIdeaFolder": "D:/AI/EducationLearning/created_idea_007_color-certification-exam-trainer",
-    "exactCreatedIdeaFolderExists": true,
-    "exactZipFile": "D:/AI/EducationLearning/created_idea_007_color-certification-exam-trainer/idea_007_color-certification-exam-trainer.zip",
-    "exactZipFileExists": true,
-    "fallbackUsed": false,
-    "fallbackSearches": []
-  },
-  "zipMetadata": {
-    "domain": "EducationLearning",
-    "no": 7,
-    "idea": "色彩検定問題トレーニング",
-    "repositoryName": "color-certification-exam-trainer",
-    "zipFile": "idea_007_color-certification-exam-trainer.zip",
-    "repositoryNameMatches": true
-  },
-  "requiredZipDocuments": {
-    "metadata.json": true,
-    "START_PROMPT.md": true,
-    "README.md": true,
-    "01_REQUIREMENTS.md": true,
-    "02_SPECIFICATION.md": true,
-    "03_DESIGN.md": true,
-    "04_IMPLEMENTATION_PLAN.md": true,
-    "05_TEST_PLAN.md": true,
-    "06_RELEASE_CHECKLIST.md": true
-  },
-  "domainDocs": [
-    "D:/AI/IDEAS/EducationLearning/Design.md",
-    "D:/AI/IDEAS/EducationLearning/Architecture.md",
-    "D:/AI/IDEAS/EducationLearning/AGENTS.md",
-    "D:/AI/IDEAS/EducationLearning/SKILL.md",
-    "D:/AI/EducationLearning/AGENTS.md",
-    "D:/AI/EducationLearning/SKILL.md"
+  "domain": "EducationLearning",
+  "nonPickupRow": "| 64 | P3 | 50 | EducationLearning | 7 | 色彩検定問題トレーニング | color-certification-exam-trainer | GitHub Pages / GitHub Release | 色彩教材は問題品質と用語更新が重要で、単なる選択式UIだけでは学習価値が不足する。 |",
+  "lookupRule": "exact created_idea and ZIP names were checked before fallback exploration",
+  "exactCreatedIdeaPath": "D:/AI/EducationLearning/created_idea_007_color-certification-exam-trainer",
+  "exactCreatedIdeaExists": true,
+  "ideasCreatedIdeaPath": "D:/AI/IDEAS/EducationLearning/created_idea_007_color-certification-exam-trainer",
+  "ideasCreatedIdeaExists": false,
+  "zipCandidates": [
+    {
+      "path": "D:/AI/EducationLearning/idea_007_color-certification-exam-trainer.zip",
+      "exists": false
+    },
+    {
+      "path": "D:/AI/EducationLearning/created_idea_007_color-certification-exam-trainer/idea_007_color-certification-exam-trainer.zip",
+      "exists": true
+    },
+    {
+      "path": "D:/AI/IDEAS/EducationLearning/idea_007_color-certification-exam-trainer.zip",
+      "exists": true
+    },
+    {
+      "path": "D:/AI/IDEAS/EducationLearning/created_idea_007_color-certification-exam-trainer/idea_007_color-certification-exam-trainer.zip",
+      "exists": false
+    }
   ],
-  "reconstructionPolicy": "Formal docs are regenerated in readable Japanese from NON PICKUP row, ZIP metadata, and domain docs; mojibake text is not copied."
+  "fallbackExploration": "not-required",
+  "reconstructionPolicy": "Do not copy mojibake text. Formal docs use clean Japanese based on NON_PICKUP row, domain docs, and available metadata.",
+  "repoReadmeAtStart": "exists"
 }
