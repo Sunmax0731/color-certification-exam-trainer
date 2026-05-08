@@ -1,0 +1,13 @@
+{
+  "product": "color-certification-exam-trainer",
+  "title": "色彩検定問題トレーニング",
+  "domain": "EducationLearning",
+  "ideaNo": 7,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
