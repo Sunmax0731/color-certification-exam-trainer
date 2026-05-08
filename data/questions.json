@@ -1,0 +1,32 @@
+{
+  "product": "color-certification-exam-trainer",
+  "updatePolicy": "Alpha data is representative. Check source, topic coverage, answer, and rationale before expanding.",
+  "questions": [
+    {
+      "id": "color-pccs-001",
+      "topic": "PCCS",
+      "prompt": "PCCSに関する基本確認",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B",
+      "rationale": "代表シナリオ用の解説。"
+    },
+    {
+      "id": "color-name-005",
+      "topic": "慣用色名",
+      "prompt": "配色に関する復習確認",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "D",
+      "rationale": "代表シナリオ用の解説。"
+    }
+  ]
+}
